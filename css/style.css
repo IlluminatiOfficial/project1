@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: blueviolet;
+    background-size: cover;
+    color: white;
+    font-family: 'Ubuntu', 'sans-serif';
+
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;    
+    
+}
+.left img{
+    width: 116px;
+    height: 90px;    
+    filter: invert(100%);
+
+}
+.left div{
+    text-align: center;
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 24px;
+
+}
+.mid {
+    width: 48%;
+    display: block;
+    margin: 20px auto;
+    top: 16px;
+}
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    
+}
+.navbar {
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 19px;
+
+}
+.navbar li a:hover, .navbar li a.active{
+    color: gray;
+    text-decoration: underline;
+    
+
+}
+.btn {
+    margin: 0px 10px;
+    color: white;
+    background-color: black;
+    padding: 12px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(63, 61, 61);
+}
+.container {
+    border: 2px solid grey;
+    background-color: rgb(49, 47, 47);
+    margin: 110px auto;
+    padding: 80px 80px;
+    width: 24%;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 10px;
+
+
+}
+.form-group input {
+    margin: 10px 0px;
+    display: block;
+    text-align: center;
+    font-size: medium;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: 10px auto;
+    border: 3px solid grey;
+    height: 18px;
+    width: 80%;
+}
+.form-group button {
+    display: block;
+    margin: auto;
+    width: 82%;
+    padding: auto;
+    
+}
+.contacts {
+    border: 2px solid gray;
+    border-radius: 8px;
+    display: block;
+    width: 40%;
+    margin: 0px auto;
+    background-color: rgb(56, 55, 55);
+}
+.contacts p {
+    margin: auto;
+    font-family: 'Ubuntu','sans-serif';
+    font-size: 20px;
+    
+}
